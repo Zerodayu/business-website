@@ -25,23 +25,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-content {
-  position: relative;
-  z-index: 1;
-}
-
-.fullscreen-blur {
-  position: fixed;
-  background: rgba(0, 0, 0, 0.5);
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  backdrop-filter: blur(10px); /* Adjust blur as needed */
-  z-index: 9999; /* Make sure it's above other elements */
-  pointer-events: all; /* Allows clicks to pass through if needed */
-}
-
 .underline-animate {
   display: block;
   position: absolute;
