@@ -6,6 +6,7 @@ import { FaEquals, IoClose } from '@/Components/icons'
 import { motion, AnimatePresence } from 'framer-motion'
 import type { Variants } from "framer-motion"
 import '@/app/globals.css';
+import { contactInfo } from '@/app/content/content';
 
 const textVariants: Variants = {
   hidden: { opacity: 0, y: 40 },
@@ -46,13 +47,20 @@ const Hero = () => {
 }, [menuOpen]);
   return (
     <div className="px-10 py-6 relative">
-      <div className='fixed top-0 left-0 w-full z-[100] px-10 py-6 flex flex-row items-center justify-between mix-blend-difference filter grayscale'>
-        <Image
-          src="/koysLOGO.svg"
-          alt="Logo"
-          width={50}
-          height={50}
-        />
+      <div className='fixed top-0 left-0 w-full z-[100] px-6 lg:px-10 py-6 flex flex-row items-center justify-between mix-blend-difference filter grayscale'>
+        <a href="/" className='flex items-center cursor-pointer group'>
+          <Image
+            src="/koysLOGO.svg"
+            alt="Logo"
+            width={50}
+            height={50}
+          />
+          <div className="font-serif tracking-widest">
+            <h1 className="text-lg">koys</h1>
+            <h1 className="text-xl">Photography</h1>
+          </div>
+        </a>
+
         <AnimatePresence mode="wait">
           {menuOpen ? (
             <motion.button
@@ -74,7 +82,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.2 }}
               className="text-3xl"
               aria-label="Toggle menu"
             >
@@ -101,6 +109,7 @@ const Hero = () => {
             <div className='fixed inset-0 z-50 flex flex-col items-end justify-center px-10 text-right'>
               <div className='flex flex-col w-full gap-6 text-6xl font-serif tracking-widest'>
                 {[
+                  { text: "Home", href: "/" },
                   { text: "Gallery", href: "/gallery" },
                   { text: "Services", href: "/services" },
                   { text: "About", href: "/about" }
@@ -122,8 +131,8 @@ const Hero = () => {
               </div>
               <div className='flex flex-col mt-20 gap-4'>
                 {[
-                  { text: "Facebook", href: "https://facebook.com" },
-                  { text: "Instagram", href: "https://instagram.com" }
+                  { text: "Facebook", href: contactInfo.socialMedia.facebook },
+                  { text: "Instagram", href: contactInfo.socialMedia.instagram }
                 ].map((item, i) => (
                   <motion.h1
                     key={item.text}
