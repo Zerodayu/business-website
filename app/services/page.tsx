@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import InvertHover from "@/Components/InvertHover";
 import { services } from '../content/content'
 
-const page = () => {
+const Page = () => {
   const [hovered, setHovered] = useState(false);
 
   return (
@@ -43,4 +43,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
