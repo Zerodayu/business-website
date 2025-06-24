@@ -183,7 +183,7 @@ export default function Home() {
             Contact
           </h1>
           <p className="mb-2 text-center italic">
-            If you're interested in working together or have any questions, feel free to reach out!
+            {`If you're interested in working together or have any questions, feel free to reach out!`}
           </p>
           <div className="flex flex-col lg:flex-row gap-4 items-center justify-center mb-4 opacity-70">
             <p>{contactInfo.name}</p>
