@@ -1,30 +1,44 @@
 
 # Business Website Template
 
-A minimal and responsive business website template showcasing curated images.
+A sleek and dynamic photography portfolio built with Next.js, designed to elegantly showcase visual work with smooth navigation, responsive layouts, and a modern aesthetic.
 
-🌐 **Live Site**: [https://koys-photos.vercel.app](https://koys-photos.vercel.app)
+🔗**Live Site**: [https://koys-photos.vercel.app](https://koys-photos.vercel.app)
 
 ## Screenshots
+
+<details>
+<summary>Click to view screenshots</summary>
 
 ![Screenshot 1](public/ReadMe/pic01.png)
 ![Screenshot 2](public/ReadMe/pic02.png)
 
-## Features
+</details>
 
-- Responsive photo grid layout
-- Smooth texts and image animations  
-- Fast loading and clean UI  
-- Deployed with Vercel  
+## Overview
+A sleek and dynamic photography portfolio built with Next.js, designed to elegantly showcase visual work with smooth navigation, responsive layouts, and a modern aesthetic.
+
+## Key Features
+
+### Component Library
+- Developed with modular and reusable components to promote scalability and maintainability.
+
+### Gallery Showcase
+- Features a clean, grid-based gallery layout for displaying high-quality images, optimized for both desktop and mobile viewing.
+
+### Smooth Animations
+- Incorporates Framer Motion for seamless transitions and interactive effects, enhancing the browsing experience.
 
 ## Tech Stack
-
 - Next.js  
 - React  
 - Framer Motion
 - Lenis
-- CSS Modules or Tailwind CSS  
+- Tailwind CSS  
 - Vercel  
+
+## Result
+The outcome is a visually compelling and highly responsive photography portfolio that delivers a smooth user experience and effectively showcases creative work. The site is easily customizable and demonstrates best practices in modern web development.
 
 ## Getting Started
 
