@@ -5,6 +5,11 @@ A minimal and responsive photo gallery website showcasing curated images.
 
 🌐 **Live Site**: [https://koys-photos.vercel.app](https://koys-photos.vercel.app)
 
+## Screenshots
+
+![Screenshot 1](public/ReadMe/pic01.png)
+![Screenshot 2](public/ReadMe/pic02.png)
+
 ## Features
 
 - Responsive photo grid layout  
