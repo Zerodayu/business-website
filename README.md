@@ -1,7 +1,7 @@
 
-# Koy's Photos
+# Business Website Template
 
-A minimal and responsive photo gallery website showcasing curated images.
+A minimal and responsive business website template showcasing curated images.
 
 🌐 **Live Site**: [https://koys-photos.vercel.app](https://koys-photos.vercel.app)
 
@@ -12,7 +12,8 @@ A minimal and responsive photo gallery website showcasing curated images.
 
 ## Features
 
-- Responsive photo grid layout  
+- Responsive photo grid layout
+- Smooth texts and image animations  
 - Fast loading and clean UI  
 - Deployed with Vercel  
 
@@ -29,7 +30,7 @@ A minimal and responsive photo gallery website showcasing curated images.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/koys-photos.git
+git clone https://github.com/urUsername/Business-Website.git
 cd koys-photos
 ```
 
