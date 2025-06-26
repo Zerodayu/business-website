@@ -31,10 +31,14 @@ A minimal and responsive photo gallery website showcasing curated images.
 # Clone the repository
 git clone https://github.com/yourusername/koys-photos.git
 cd koys-photos
+```
 
+```bash
 # Install dependencies
 npm install
+```
 
+```bash
 # Start the development server
 npm run dev
 ```
