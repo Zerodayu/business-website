@@ -45,7 +45,7 @@ The outcome is a visually compelling and highly responsive photography portfolio
 ```bash
 # Clone the repository
 git clone https://github.com/urUsername/Business-Website.git
-cd koys-photos
+cd Business-Website
 ```
 
 ```bash
